@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xalan="http://xml.apache.org/xalan" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.isotc211.org/2005/gmd">
+    <language>
+        <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+    </language>
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    <hierarchyLevelName>
+        <gco:CharacterString>dataset</gco:CharacterString>
+    </hierarchyLevelName>
+    <contact gco:nilReason="missing"/>
+    <dateStamp>
+        <gco:Date>2024-03-11</gco:Date>
+    </dateStamp>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>2007</gco:CharacterString>
+    </metadataStandardVersion>
+    <spatialRepresentationInfo>
+        <MD_VectorSpatialRepresentation>
+            <topologyLevel>
+                <MD_TopologyLevelCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopologyLevelCode" codeListValue="geometryOnly" codeSpace="ISOTC211/19115">geometryOnly</MD_TopologyLevelCode>
+            </topologyLevel>
+            <geometricObjects>
+                <MD_GeometricObjects>
+                    <geometricObjectType>
+                        <MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="composite" codeSpace="ISOTC211/19115">composite</MD_GeometricObjectTypeCode>
+                    </geometricObjectType>
+                </MD_GeometricObjects>
+            </geometricObjects>
+        </MD_VectorSpatialRepresentation>
+    </spatialRepresentationInfo>
+    <referenceSystemInfo>
+        <MD_ReferenceSystem>
+            <referenceSystemIdentifier>
+                <RS_Identifier>
+                    <code>
+                        <gco:CharacterString>32662</gco:CharacterString>
+                    </code>
+                    <codeSpace>
+                        <gco:CharacterString>EPSG</gco:CharacterString>
+                    </codeSpace>
+                    <version>
+                        <gco:CharacterString>5.3(9.3.0.0)</gco:CharacterString>
+                    </version>
+                </RS_Identifier>
+            </referenceSystemIdentifier>
+        </MD_ReferenceSystem>
+    </referenceSystemInfo>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>ehs_2023_merge_dis_dis</gco:CharacterString>
+                    </title>
+                    <date gco:nilReason="missing"/>
+                    <presentationForm>
+                        <CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115">mapDigital</CI_PresentationFormCode>
+                    </presentationForm>
+                </CI_Citation>
+            </citation>
+            <abstract>
+                <gco:CharacterString>OverviewDue to the increasing size and complexity of global forest monitoring data sources, analysis and interpretation tools for this data are ever more important for intervention efforts, allowing for the quick identification and interpretation of significant forest loss. The emerging hot spots data set identifies the most significant clusters of primary forest loss between 2002-2023 at a country level basis, on a tropical scale. The term ‘hot spot’ is defined as an area that exhibits statistically significant clustering in the spatial patterns of loss. In this analysis, observed patterns of primary forest loss are likely to be attributable to underlying, as opposed to random, spatial processes. The different categories of hot spots are described below:New: A location that is a statistically signiﬁcant hot spot only for the year 2023 and has never been a hot spot before.Sporadic: A location that is an on-again then off-again hot spot. Less than 20 of the 22 years have been statistically signiﬁcant hot spots.Intensifying: A location that has been a statistically signiﬁcant hot spot for more than 19 of the 22 years (&amp;gt;90%), including the most recent year (2023). In addition, the intensity of clustering of high counts in each year is increasing.Persistent: A location that has been a statistically signiﬁcant hot spot for more than 19 of the 22 years (&amp;gt;90%), with no discernible trend indicating an increase or decrease in the intensity of clustering over time.Diminishing: A location that has been a statistically signiﬁcant hot spot for more than 19 of the 22 years (&amp;gt;90%). In addition, the intensity of clustering of high counts in each year is decreasing, or the most recent year (2023) is not hot.The emerging hot spots analysis uses the annual Hansen et al 2013 tree cover loss data set between the years 2002 – 2023, the Turubanova et al. 2018 primary forest extent data set for the year 2001, and the ESRI ArcGIS Emerging Hot Spot Analysis geoprocessing tool. In this analysis, primary forest is defined as mature natural humid tropical forest cover that has not been completely cleared and regrown in recent history. Forest loss is defined as ‘stand replacement disturbance,’ or the complete removal of tree cover canopy at the Landsat pixel scale. The emerging hot spots analysis tool uses a combination two statistical measures, the Getis-Ord Gi* statistic to identify the location and degree of spatial clustering of forest loss, and the Mann-Kendall trend test to evaluate the temporal trend over time.The forest loss data used in this analysis has a user’s accuracy of 87% and a producer’s accuracy of 83.1% across the tropical biome. Additionally, because this analysis was run for individual countries, results are relative to the patterns and amount of loss in each country. Results should not be directly compared between countries - please use caution when viewing layer at a global scale.Geographic Coverage: TropicsFrequency of Updates: AnnualDate of Content: 2002-2023</gco:CharacterString>
+            </abstract>
+            <credit>
+                <gco:CharacterString>Harris, N. L. et al., (2017). Using spatial statistics to identify emerging hot spots of forest loss. Environmental Research Letters, 12(2), 024012. doi: 10.1088/1748-9326/aa5a2f</gco:CharacterString>
+            </credit>
+            <resourceConstraints>
+                <MD_Constraints>
+                    <useLimitation>
+                        <gco:CharacterString>CautionsThis analysis was run for 
+individual countries and therefore results are relative to the patterns 
+and amount of loss in each country. Results should not be directly 
+compared between countries - please use caution when viewing layer at a 
+global scaleLicenseCC BY 4.0CitationHarris et al. “Emerging Hot Spots”. Accessed on [date] from www.globalforestwatch.org</gco:CharacterString>
+                    </useLimitation>
+                </MD_Constraints>
+            </resourceConstraints>
+            <spatialRepresentationType>
+                <MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115">vector</MD_SpatialRepresentationTypeCode>
+            </spatialRepresentationType>
+            <language>
+                <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+            </language>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterSet>
+            <environmentDescription>
+                <gco:CharacterString> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</gco:CharacterString>
+            </environmentDescription>
+        </MD_DataIdentification>
+    </identificationInfo>
+    <distributionInfo>
+        <MD_Distribution>
+            <distributionFormat>
+                <MD_Format>
+                    <name>
+                        <gco:CharacterString>Shapefile</gco:CharacterString>
+                    </name>
+                    <version gco:nilReason="missing"/>
+                </MD_Format>
+            </distributionFormat>
+            <transferOptions>
+                <MD_DigitalTransferOptions/>
+            </transferOptions>
+        </MD_Distribution>
+    </distributionInfo>
+</MD_Metadata>
