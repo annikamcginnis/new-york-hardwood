@@ -21,6 +21,8 @@ Raster data on land use change, specificially tree height in 2000 and 2020, was 
 
 ITTO data is analyzed in the folder 'ITTO data analysis.'
 
+Additional data was analyzed in Google Sheets.
+
 The full methodology and explanation of calculations behind this project is in the file 'Methodology.'
 
 ## Languages, Libraries, and Applications Used:
@@ -38,6 +40,7 @@ The full methodology and explanation of calculations behind this project is in t
 - mapshaper
 - QGIS
 - Raster unique values analysis
+- Google Sheets
 
 
 
