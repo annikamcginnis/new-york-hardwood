@@ -13,7 +13,9 @@ In this repo, I analyze various data for a story on New York City's use of tropi
 
 I scrape the Guyana map data in notebook 'Scraping Guyana Forestry Commission Forest Allocation Map,' Gabon map in 'Scraping Gabon Forest Atlas - Timber Concessions' and the lobbying data in 'Scraping New York Lobbying Data.' Folders 'cameroon concessions map' and 'guyana concessions map' contain geographical files ad notebooks filtering concessions linked to New York contractors' suppliers.
 
-Imports data was downloaded from [ImportGenius](https://www.importgenius.com/) between Nov. 1, 2006 and mid-2025 and analyzed in various Jupyter notebooks in the 'Ekki:greenheart imports and NY agency importers analyses' folder. Data on species vulnerability from the International Union for Conservation of Nature (IUCN) was merged. The folder 'guyana exporters data' contains individual data files with imports from each supplier of post-2013 New York City tropical hardwood contractors. 'US importers data' contains individual imports data for each city contractor, as well as all greenheart and ekki imports to the U.S. 
+Imports data was downloaded from [ImportGenius](https://www.importgenius.com/) between Nov. 1, 2006 and mid-2025 and analyzed in various Jupyter notebooks in the 'Ekki:greenheart imports and NY agency importers analyses' folder. Fuzzy matching was used to clean names of importers. Data on species vulnerability from the International Union for Conservation of Nature (IUCN) was merged. An LLM (Gemini) was used in Python to extract out species names from product descriptions.
+
+The folder 'guyana exporters data' contains individual data files with imports from each supplier of post-2013 New York City tropical hardwood contractors. 'US importers data' contains individual imports data for each city contractor, as well as all greenheart and ekki imports to the U.S. 
 
 Raster data on land use change, specificially tree height in 2000 and 2020, was analyzed for Guyana and Cameroon forest concessions in the folder 'tree height satellite analysis - guyana and cameroon.' This folder contains .qgz files from my analysis in QGIS and Jupyter notebooks with my analysis of the unique values tables in Python. 
 
@@ -21,12 +23,19 @@ ITTO data is analyzed in the folder 'ITTO data analysis.'
 
 The full methodology and explanation of calculations behind this project is in the file 'Methodology.'
 
-## Skills Used
+## Languages, Libraries, and Applications Used:
 - Python
 - pandas
+- geopandas
 - requests
+- Regular expressions
+- Fuzzy matching
+- OpenAI
+- matplotlib
+- numpy
 - BeautifulSoup
 - Playwright
+- mapshaper
 - QGIS
 - Raster unique values analysis
 
