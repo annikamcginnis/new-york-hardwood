@@ -1,8 +1,8 @@
 # Investigating NYC's Suppliers of Tropical Hardwood
 
 In this repo, I analyze various data for a story on New York City's use of tropical hardwood. These include:
-- U.S. imports data for New York City tropical hardwood contractors and their suppliers from ImportGenius
-- All greenheart and ekki wood imports between 2006 and 2025
+- U.S. imports data for New York City tropical hardwood contractors and their suppliers from [ImportGenius](https://www.importgenius.com/)
+- All greenheart and ekki wood imports between 2006 and 2025 from [ImportGenius](https://www.importgenius.com/)
 - [Guyana Forestry Commission Allocation map](https://cadasta.maps.arcgis.com/apps/webappviewer/index.html?id=e543e1d1d8f04bc29e16b448cd0beb76)
 - [Cameroon Forest Atlas](https://data-minfof.opendata.arcgis.com/search?groupIds=c710d96159e14e79934236191bc61121)
 - [Gabon Forest Atlas](https://gab.forest-atlas.org/pages/maps)
@@ -19,7 +19,7 @@ Raster data on land use change, specificially tree height in 2000 and 2020, was 
 
 ITTO data is analyzed in the folder 'ITTO data analysis.'
 
-The full methodology and explanation of calculations for this project is in the file 'Methodology.'
+The full methodology and explanation of calculations behind this project is in the file 'Methodology.'
 
 ## Skills Used
 - Python
