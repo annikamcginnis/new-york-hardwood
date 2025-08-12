@@ -1,6 +1,6 @@
 # Investigating NYC's Suppliers of Tropical Hardwood
 
-In this repo, I analyze various data for my master's thesis in the Columbia Journalism School - Data Journalism Program on New York City's use of tropical hardwood. These include:
+In this repo, I analyze various data for my master's thesis on New York City's use of tropical hardwood. These include:
 - U.S. imports data for New York City tropical hardwood contractors and their suppliers from [ImportGenius](https://www.importgenius.com/)
 - All greenheart and ekki wood imports between 2006 and 2025 from [ImportGenius](https://www.importgenius.com/)
 - [Guyana Forestry Commission Allocation map](https://cadasta.maps.arcgis.com/apps/webappviewer/index.html?id=e543e1d1d8f04bc29e16b448cd0beb76)
@@ -42,5 +42,5 @@ The full methodology and explanation of calculations behind this project is in t
 - Raster unique values analysis
 - Google Sheets
 
-
+This story was produced for the Data Journalism master's program at Columbia Journalism School.
 
